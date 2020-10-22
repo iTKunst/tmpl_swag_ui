@@ -6,4 +6,4 @@ log_enter /Project/env/init
 
 cp ./Project/env/linux/*.sh ./Env
 
-log_exit /Project/env/linux
+log_exit /Project/env/init
