@@ -1,6 +1,6 @@
 @echo off
 
-CALL LOG_ENTER \Project\env\win
+CALL LOG_ENTER \Project\env\init
 
 xcopy /q /y .\Project\env\win\*.cmd .\Env
 
