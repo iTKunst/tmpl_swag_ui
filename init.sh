@@ -2,9 +2,9 @@
 # shellcheck disable=SC2086
 source LOG.sh
 
-log_enter /Project/linux
+log_enter /Project/init
 
-source ./Project/docker/linux.sh
-source ./Project/env/linux.sh
+source ./Project/docker/init.sh
+source ./Project/env/init.sh
 
-log_exit /Project/linux
+log_exit /Project/init
