@@ -2,8 +2,8 @@
 # shellcheck disable=SC2086
 source LOG.sh
 
-log_enter /$PROJ_DIR/docker/init
+log_enter /$DIR_PROJ/docker/init
 
-cp ./$PROJ_DIR/docker/linux/*.sh ./Exe
+cp ./$DIR_PROJ/docker/linux/*.sh ./Exe
 
-log_exit /$PROJ_DIR/docker/init
+log_exit /$DIR_PROJ/docker/init

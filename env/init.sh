@@ -2,8 +2,8 @@
 # shellcheck disable=SC2086
 source LOG.sh
 
-log_enter /$PROJ_DIR/env/init
+log_enter /$DIR_PROJ/env/init
 
-cp ./$PROJ_DIR/env/linux/*.sh ./Env
+cp ./$DIR_PROJ/env/linux/*.sh ./Env
 
-log_exit /$PROJ_DIR/env/init
+log_exit /$DIR_PROJ/env/init
