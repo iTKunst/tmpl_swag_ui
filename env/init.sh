@@ -1,6 +1,6 @@
 #!/bin/bash
 # shellcheck disable=SC2086
-source LOG.sh
+
 
 log_enter /$DIR_PROJ/env/init
 
