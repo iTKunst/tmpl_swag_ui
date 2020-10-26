@@ -1,6 +1,6 @@
 @echo off
 
-CALL LOG_ENTER \Project\docker\init
+call :log_enter \Project\docker\init
 
 xcopy /q /y .\Project\docker\win\*.cmd .\Exe
 

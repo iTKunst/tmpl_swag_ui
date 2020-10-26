@@ -1,5 +1,5 @@
 @echo off
-CALL LOG_ENTER pENV
+call :log_enter pENV
 
 CALL sENV
 

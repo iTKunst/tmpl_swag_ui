@@ -1,6 +1,6 @@
 @echo off
 
-CALL LOG_ENTER \Project\init
+call :log_enter \Project\init
 
 CALL .\Project\docker\init
 CALL .\Project\env\init
