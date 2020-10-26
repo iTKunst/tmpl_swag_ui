@@ -1,7 +1,7 @@
 @echo off
 
-call :log_enter \Project\docker\init
+call :log_enter \DIR_PROJ\docker\init
 
-xcopy /q /y .\Project\docker\win\*.cmd .\Exe
+xcopy /q /y .\DIR_PROJ\docker\win\*.cmd .\Exe
 
-call :log_exit \Project\docker\init
+call :log_exit \DIR_PROJ\docker\init
