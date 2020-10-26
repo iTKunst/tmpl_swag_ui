@@ -22,5 +22,5 @@ SET PROJ_VOL_DIR        =%SWAG_UI_VOL_DIR%
 
 SET PROJ_JSON           =%SWAG_UI_JSON%
 
-CALL LOG_EXIT pENV
+call :log_exit pENV
 
