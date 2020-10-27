@@ -1,8 +1,8 @@
 @echo off
 
-call LOG_ENTER \Project\init
+call LOG_ENTER \%DIR_PROJ%\init
 
-CALL .\Project\docker\init
-CALL .\Project\env\init
+CALL .\%DIR_PROJ%\docker\init
+CALL .\%DIR_PROJ%\env\init
 
-call LOG_EXIT \Project\init
+call LOG_EXIT \%DIR_PROJ%\init
