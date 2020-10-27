@@ -1,5 +1,5 @@
 @echo off
-CALL LOG log_enter pENV
+CALL LOG_ENTER pENV
 
 CALL sENV
 
@@ -22,5 +22,5 @@ SET PROJ_VOL_DIR        =%SWAG_UI_VOL_DIR%
 
 SET PROJ_JSON           =%SWAG_UI_JSON%
 
-CALL LOG log_exit pENV
+CALL LOG_EXIT pENV
 

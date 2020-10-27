@@ -1,7 +1,7 @@
 @echo off
 
-CALL LOG log_enter \Project\env\init
+CALL LOG_ENTER \Project\env\init
 
 xcopy /q /y .\Project\env\win\*.cmd .\Env
 
-CALL LOG log_exit \Project\env\init
+CALL LOG_EXIT \Project\env\init
