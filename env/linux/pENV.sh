@@ -6,6 +6,7 @@ log_enter pENV
 
 source sENV.sh
 
+
 export PROJ_LABEL=$SYS
 export PROJ_NET=$SYS_NET
 

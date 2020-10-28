@@ -3,7 +3,8 @@
 source settings.sh
 source LOG.sh
 
-log_enter pGO
+
+log_load pGO
 
 source pENV.sh
 
@@ -49,4 +50,4 @@ docker run \
        --network=$NET \
        $IMG
 
-log_exit pGO
+log_unload pGO
