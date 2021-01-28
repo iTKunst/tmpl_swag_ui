@@ -5,6 +5,7 @@
 log_enter pENV
 
 source sENV.sh
+source pENV_MOD.sh
 
 
 export PROJ_LABEL=$SYS
