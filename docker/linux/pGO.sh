@@ -14,6 +14,7 @@ HOST=$PROJ_HOST
 HOST_DIR=$(pwd)$PROJ_HOST_DIR
 IMG=$PROJ_IMG
 LABEL=$PROJ_LABEL
+MODE=$PROJ_MODE
 NET=$PROJ_NET
 PASSWORD=$PROJ_PASSWORD
 PORT_EXT=$PROJ_PORT_EXT
@@ -41,7 +42,7 @@ log_var VOL_DIR $VOL_DIR
 log_var JSON $JSON
 
 docker run \
-       -d \
+       -$MODE \
        -p $HOST:$PORT_EXT:$PORT_INT \
        -v $HOST_DIR:$CONT_DIR:rw \
        -e SWAGGER_JSON=$JSON \
