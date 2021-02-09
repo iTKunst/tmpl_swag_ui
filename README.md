@@ -1,4 +1,4 @@
-# tmpl_swagger_ui
+# tmpl_swag_ui
 
 Project template for configuring and running swagger_ui
 
